@@ -8,6 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "poppyio": "https://js.poppy.io/0.1.0-20220503172449939.capeghostfrog/poppyio-0.1.0-20220503172449939.capeghostfrog.tgz",
     "react": "^18.0.0",

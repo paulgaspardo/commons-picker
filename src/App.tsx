@@ -209,7 +209,7 @@ function SelectedImage(props: {selected: any, cancel: () => void}) {
 
   return <>
     <div className='App-selectionOverlay' onClick={props.cancel}></div>
-    <div className='App-selectionBox' onClick={ev => { if (ev.currentTarget.classList.contains('App-selectionBox')) props.cancel() }}>
+    <div className='App-selectionBox' onClick={ev => { if ((ev.target as HTMLElement).classList.contains('App-selectionBox')) props.cancel() }}>
       <div className='App-selectionBoxInner'>
         <h2>
           {result.title}

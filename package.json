@@ -12,7 +12,7 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "poppyio": "https://js.poppy.io/0.0.3/poppyio-0.0.3.tgz",
+    "poppyio": "https://js.poppy.io/0.0.7/poppyio-0.0.7.tgz",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-infinite-scroll-component": "^6.1.0",

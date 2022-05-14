@@ -58,7 +58,7 @@ function Welcome(props: {requestStatus: string, setSearch: (search: string) => v
   }
   return <div className='App-body'>
     <div className='App-bodyInner'>
-      <div style={{margin:'auto', maxWidth: '40rem'}}>
+      <div style={{margin:'auto', padding: '1rem', maxWidth: '40rem'}}>
     <p>
       This page is a Poppy I/O Service that lets you
       pick an image from the Flickr Commons, a collection of free
